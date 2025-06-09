@@ -1,0 +1,66 @@
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hotel Booking Cambodia - About Us</title>
+<link rel="stylesheet" href="../src/output.css">
+</head>
+<body class="bg-white dark:bg-gray-900 text-gray-800 dark:text-white">
+  <!-- Header/Navbar -->
+  <header class="flex justify-between items-center p-4 shadow-md bg-gray-100 dark:bg-gray-800">
+    <h1 class="text-2xl font-bold">Hotel Cambodia</h1>
+    <nav class="space-x-4">
+      <a href="index.html" class="hover:underline">Home</a>
+      <a href="blog.html" class="hover:underline">Blog</a>
+      <a href="about.html" class="hover:underline">About</a>
+      <a href="contact.html" class="hover:underline">Contact</a>
+      <a href="login.html" class="hover:underline">Login</a>
+      <button onclick="document.documentElement.classList.toggle('dark')" class="ml-4 p-1 border rounded">🌓</button>
+    </nav>
+  </header>
+
+  <!-- About Content -->
+  <main class="px-4 py-10 max-w-4xl mx-auto">
+    <h2 class="text-3xl font-bold mb-6 text-center">About Hotel Cambodia</h2>
+    <p class="mb-6 text-lg leading-relaxed">
+      Welcome to Hotel Cambodia, your trusted companion for comfortable and luxurious stays across Cambodia. Whether you're looking to relax on pristine beaches, explore ancient temples, or dive into bustling city life, we provide the perfect base for your adventures.
+    </p>
+    <p class="mb-6 text-lg leading-relaxed">
+      Our platform connects travelers with top-rated hotels in key destinations including Phnom Penh, Siem Reap, Sihanoukville, and more. We pride ourselves on quality, convenience, and an unwavering commitment to customer satisfaction.
+    </p>
+    <p class="mb-6 text-lg leading-relaxed">
+      At Hotel Cambodia, our mission is simple: to make your journey unforgettable by ensuring every stay feels like home. Our curated list of properties guarantees comfort, value, and authentic Cambodian hospitality.
+    </p>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-8">
+      <div class="rounded overflow-hidden shadow-lg bg-gray-50 dark:bg-gray-800">
+        <img src="https://source.unsplash.com/600x400/?angkorwat" alt="Angkor Wat" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">Explore Angkor</h3>
+          <p class="text-sm">Discover the history and wonder of Cambodia's most iconic temple complex.</p>
+        </div>
+      </div>
+      <div class="rounded overflow-hidden shadow-lg bg-gray-50 dark:bg-gray-800">
+        <img src="https://source.unsplash.com/600x400/?hotel,staff" alt="Hotel Staff" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">World-Class Service</h3>
+          <p class="text-sm">Our hotel partners offer exceptional service tailored to your needs.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="p-4 mt-8 text-center text-sm bg-gray-100 dark:bg-gray-800">
+    <p>&copy; 2025 Hotel Cambodia. All rights reserved.</p>
+    <p class="mt-2">
+      Follow us:
+      <a href="#" class="underline mx-1">Facebook</a>
+      <a href="#" class="underline mx-1">Instagram</a>
+      <a href="#" class="underline mx-1">Twitter</a>
+    </p>
+  </footer>
+</body>
+</html>

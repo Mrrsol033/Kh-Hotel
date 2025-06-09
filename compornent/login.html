@@ -1,0 +1,66 @@
+<!-- login.html -->
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hotel Booking Cambodia - Login</title>
+<link rel="stylesheet" href="../src/output.css">
+</head>
+<body class="bg-white dark:bg-gray-900 text-gray-800 dark:text-white">
+  <!-- Header/Navbar -->
+  <header class="flex justify-between items-center p-4 shadow-md bg-gray-100 dark:bg-gray-800">
+    <h1 class="text-2xl font-bold">Hotel Cambodia</h1>
+    <nav class="space-x-4">
+      <a href="index.html" class="hover:underline">Home</a>
+      <a href="blog.html" class="hover:underline">Blog</a>
+      <a href="about.html" class="hover:underline">About</a>
+      <a href="contact.html" class="hover:underline">Contact</a>
+      <a href="login.html" class="hover:underline">Login</a>
+      <button onclick="document.documentElement.classList.toggle('dark')" class="ml-4 p-1 border rounded">🌓</button>
+    </nav>
+  </header>
+
+  <!-- Login Form Section -->
+  <main class="flex justify-center items-center min-h-screen px-4 py-16">
+    <div class="w-full max-w-md bg-gray-50 dark:bg-gray-800 p-8 rounded-lg shadow-lg">
+      <h2 class="text-2xl font-bold mb-6 text-center">Login to Your Account</h2>
+
+      <form class="space-y-6">
+        <div>
+          <label for="email" class="block mb-2 font-medium">Email</label>
+          <input type="email" id="email" name="email" required class="w-full p-3 rounded border dark:bg-gray-900 dark:border-gray-700">
+        </div>
+
+        <div>
+          <label for="password" class="block mb-2 font-medium">Password</label>
+          <input type="password" id="password" name="password" required class="w-full p-3 rounded border dark:bg-gray-900 dark:border-gray-700">
+        </div>
+
+        <div class="flex justify-between items-center">
+          <label class="flex items-center">
+            <input type="checkbox" class="mr-2">
+            <span class="text-sm">Remember me</span>
+          </label>
+          <a href="#" class="text-sm text-blue-600 hover:underline">Forgot password?</a>
+        </div>
+
+        <button type="submit" class="w-full py-3 bg-blue-600 text-white rounded hover:bg-blue-700">Login</button>
+
+        <p class="text-sm text-center mt-4">Don't have an account? <a href="#" class="text-blue-600 hover:underline">Register</a></p>
+      </form>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="p-4 mt-8 text-center text-sm bg-gray-100 dark:bg-gray-800">
+    <p>&copy; 2025 Hotel Cambodia. All rights reserved.</p>
+    <p class="mt-2">
+      Follow us:
+      <a href="#" class="underline mx-1">Facebook</a>
+      <a href="#" class="underline mx-1">Instagram</a>
+      <a href="#" class="underline mx-1">Twitter</a>
+    </p>
+  </footer>
+</body>
+</html>

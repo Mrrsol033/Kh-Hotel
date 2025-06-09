@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wego Cambodia - Find Hotels</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="../src/output.css">
+</head>
+<body class="bg-white dark:bg-gray-900 text-gray-800 dark:text-white">
+
+  <!-- Dark mode toggle button -->
+  <div class="p-4 text-right">
+    <button
+      onclick="document.documentElement.classList.toggle('dark')"
+      class="p-2 border rounded hover:bg-gray-100 dark:hover:bg-gray-700"
+    >🌓 Toggle Dark Mode</button>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="bg-cover bg-center h-[70vh] flex items-center justify-center text-white relative"
+           style="background-image: url('https://images.unsplash.com/photo-1580136575493-1c1c1c3a7a11?auto=format&fit=crop&w=1470&q=80');">
+    <div class="bg-black bg-opacity-60 p-6 rounded max-w-xl text-center">
+      <h2 class="text-4xl font-bold mb-4">Find the Best Hotels in Cambodia</h2>
+      <p class="text-lg mb-6">Compare prices from top travel sites and save more.</p>
+      <a href="search.html" class="bg-green-600 hover:bg-green-700 text-white py-2 px-6 rounded transition">Search Hotels</a>
+    </div>
+  </section>
+
+  <!-- Featured Destinations -->
+  <section class="max-w-7xl mx-auto py-12 px-4">
+    <h3 class="text-2xl font-bold mb-6">Top Destinations</h3>
+    <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-6">
+      <div class="rounded overflow-hidden shadow hover:shadow-lg transition">
+        <img src="https://source.unsplash.com/400x300/?angkorwat" alt="Angkor Wat" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h4 class="font-semibold">Siem Reap</h4>
+          <p class="text-sm text-gray-500 dark:text-gray-400">Home of Angkor Wat</p>
+        </div>
+      </div>
+      <div class="rounded overflow-hidden shadow hover:shadow-lg transition">
+        <img src="https://source.unsplash.com/400x300/?phnompenh" alt="Phnom Penh" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h4 class="font-semibold">Phnom Penh</h4>
+          <p class="text-sm text-gray-500 dark:text-gray-400">Capital City</p>
+        </div>
+      </div>
+      <div class="rounded overflow-hidden shadow hover:shadow-lg transition">
+        <img src="https://source.unsplash.com/400x300/?kampot" alt="Kampot" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h4 class="font-semibold">Kampot</h4>
+          <p class="text-sm text-gray-500 dark:text-gray-400">Riverside Escape</p>
+        </div>
+      </div>
+      <div class="rounded overflow-hidden shadow hover:shadow-lg transition">
+        <img src="https://source.unsplash.com/400x300/?sihanoukville" alt="Sihanoukville" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h4 class="font-semibold">Sihanoukville</h4>
+          <p class="text-sm text-gray-500 dark:text-gray-400">Beach Resorts</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Top Deals -->
+  <section class="bg-gray-100 dark:bg-gray-800 py-12 px-4">
+    <div class="max-w-7xl mx-auto">
+      <h3 class="text-2xl font-bold mb-6">Top Hotel Deals</h3>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white dark:bg-gray-900 shadow rounded overflow-hidden">
+          <img src="https://source.unsplash.com/400x250/?hotel,luxury" alt="Luxury Hotel" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h4 class="font-semibold">Luxury Hotel</h4>
+            <p class="text-sm mb-2 text-gray-500 dark:text-gray-400">Siem Reap • 5-star</p>
+            <span class="text-green-600 font-bold">$120/night</span>
+          </div>
+        </div>
+        <div class="bg-white dark:bg-gray-900 shadow rounded overflow-hidden">
+          <img src="https://source.unsplash.com/400x250/?hotel,pool" alt="Resort with Pool" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h4 class="font-semibold">Resort & Pool</h4>
+            <p class="text-sm mb-2 text-gray-500 dark:text-gray-400">Phnom Penh • 4-star</p>
+            <span class="text-green-600 font-bold">$85/night</span>
+          </div>
+        </div>
+        <div class="bg-white dark:bg-gray-900 shadow rounded overflow-hidden">
+          <img src="https://source.unsplash.com/400x250/?hotel,beach" alt="Beach Hotel" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h4 class="font-semibold">Beach View Hotel</h4>
+            <p class="text-sm mb-2 text-gray-500 dark:text-gray-400">Sihanoukville • 3-star</p>
+            <span class="text-green-600 font-bold">$70/night</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

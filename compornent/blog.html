@@ -1,0 +1,97 @@
+<!-- blog.html (Enhanced Blog Page) -->
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hotel Booking Cambodia - Blog</title>
+<link rel="stylesheet" href="../src/output.css">
+</head>
+<body class="bg-white dark:bg-gray-900 text-gray-800 dark:text-white">
+  <!-- Header/Navbar -->
+  <header class="flex justify-between items-center p-4 shadow-md bg-gray-100 dark:bg-gray-800">
+    <h1 class="text-2xl font-bold">Hotel Cambodia</h1>
+    <nav class="space-x-4">
+      <a href="index.html" class="hover:underline">Home</a>
+      <a href="blog.html" class="hover:underline">Blog</a>
+      <a href="about.html" class="hover:underline">About</a>
+      <a href="contact.html" class="hover:underline">Contact</a>
+      <a href="login.html" class="hover:underline">Login</a>
+      <button onclick="document.documentElement.classList.toggle('dark')" class="ml-4 p-1 border rounded">🌓</button>
+    </nav>
+  </header>
+
+  <!-- Blog Section -->
+  <main class="px-4 py-8">
+    <h2 class="text-3xl font-bold text-center mb-10">Travel Stories & Tips from Cambodia</h2>
+    <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+      <!-- Blog Card Example -->
+      <div class="bg-gray-50 dark:bg-gray-800 rounded-lg shadow-md overflow-hidden">
+        <img src="https://source.unsplash.com/600x400/?angkorwat" alt="Angkor Wat" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">Exploring the Mystical Angkor Wat</h3>
+          <p class="text-sm mb-4">Dive into the heart of Cambodia's iconic temple complex and discover ancient history, stunning architecture, and local legends.</p>
+          <a href="#" class="text-blue-600 hover:underline">Read more</a>
+        </div>
+      </div>
+
+      <div class="bg-gray-50 dark:bg-gray-800 rounded-lg shadow-md overflow-hidden">
+        <img src="https://source.unsplash.com/600x400/?phnompenh" alt="Phnom Penh" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">A Weekend in Phnom Penh</h3>
+          <p class="text-sm mb-4">From royal palaces to street food, here’s how to spend 48 hours in Cambodia’s bustling capital city.</p>
+          <a href="#" class="text-blue-600 hover:underline">Read more</a>
+        </div>
+      </div>
+
+      <div class="bg-gray-50 dark:bg-gray-800 rounded-lg shadow-md overflow-hidden">
+        <img src="https://source.unsplash.com/600x400/?sihanoukville,beach" alt="Sihanoukville Beach" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">Beach Escapes: Sihanoukville</h3>
+          <p class="text-sm mb-4">White sand, turquoise waters, and island hopping—discover the seaside charm of Cambodia.</p>
+          <a href="#" class="text-blue-600 hover:underline">Read more</a>
+        </div>
+      </div>
+
+      <!-- Additional Blog Cards (Add more as needed) -->
+      <div class="bg-gray-50 dark:bg-gray-800 rounded-lg shadow-md overflow-hidden">
+        <img src="https://source.unsplash.com/600x400/?kampot" alt="Kampot" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">Charming Kampot and the Pepper Plantations</h3>
+          <p class="text-sm mb-4">Take a journey through the sleepy riverside town known for its world-famous pepper and French colonial architecture.</p>
+          <a href="#" class="text-blue-600 hover:underline">Read more</a>
+        </div>
+      </div>
+
+      <div class="bg-gray-50 dark:bg-gray-800 rounded-lg shadow-md overflow-hidden">
+        <img src="https://source.unsplash.com/600x400/?battambang" alt="Battambang" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">Discovering Battambang’s Art Scene</h3>
+          <p class="text-sm mb-4">Explore Cambodia’s creative hub, where old meets new through mural art, performance, and local culture.</p>
+          <a href="#" class="text-blue-600 hover:underline">Read more</a>
+        </div>
+      </div>
+
+      <div class="bg-gray-50 dark:bg-gray-800 rounded-lg shadow-md overflow-hidden">
+        <img src="https://source.unsplash.com/600x400/?cambodia,food" alt="Cambodian Cuisine" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">Flavors of Cambodia: What to Eat</h3>
+          <p class="text-sm mb-4">A food lover’s guide to traditional dishes you must try, from Amok to Nom Banh Chok and beyond.</p>
+          <a href="#" class="text-blue-600 hover:underline">Read more</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="p-4 mt-8 text-center text-sm bg-gray-100 dark:bg-gray-800">
+    <p>&copy; 2025 Hotel Cambodia. All rights reserved.</p>
+    <p class="mt-2">
+      Follow us:
+      <a href="#" class="underline mx-1">Facebook</a>
+      <a href="#" class="underline mx-1">Instagram</a>
+      <a href="#" class="underline mx-1">Twitter</a>
+    </p>
+  </footer>
+</body>
+</html>
